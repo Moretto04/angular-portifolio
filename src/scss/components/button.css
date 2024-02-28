@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  transform: 0.5s;
+  transition: 0.5s;
   cursor: pointer;
 }
 .btn.btn-primary, .btn.btn-secondary {
@@ -11,10 +11,18 @@
   font-size: 16px;
   border-radius: 7px;
 }
-.btn .btn-primary {
+.btn.btn-primary {
   color: var(--black-010);
   background-color: var(--primary);
 }
-.btn .btn-primary:hover {
-  background-color: var();
+.btn.btn-primary:hover {
+  background-color: var(--primary-010);
+  color: var(--white);
+}
+.btn.btn-secondary {
+  color: var(--white);
+  background-color: var(--secondary);
+}
+.btn.btn-secondary:hover {
+  background-color: var(--secondary-010);
 }/*# sourceMappingURL=button.css.map */
