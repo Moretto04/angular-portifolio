@@ -1,0 +1,30 @@
+:host {
+  background-color: var(--back-010);
+  margin-top: 25px;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+:host h2 {
+  text-align: center;
+  margin: 0;
+}
+:host ul {
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  list-style: none;
+}
+:host ul li {
+  width: 50px;
+  height: 50px;
+  background-color: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}/*# sourceMappingURL=knowledge.component.css.map */
