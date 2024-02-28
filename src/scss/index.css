@@ -23,6 +23,11 @@ p {
   margin: 10px 0;
 }
 
+.btn {
+  display: flex;
+  background-color: red;
+}
+
 .container {
   width: 700px;
   position: relative;
