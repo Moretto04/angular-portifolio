@@ -13,7 +13,7 @@
   align-items: center;
 }
 :host header img {
-  border-radius: 100px;
+  border-radius: 100%;
   border: 5px solid var(--white);
 }
 :host aside p {
@@ -44,5 +44,30 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
-  border: 1px solid var();
+  border: 1px solid var(--white);
+  border-radius: 7px;
+}
+:host aside section figure figcaption a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+:host aside section figure figcaption p {
+  margin: 3px 0;
+}
+:host aside section figure figcaption strong {
+  color: var(--primary);
+}
+@media (max-width: 750px) {
+  :host aside nav ul,
+  :host section {
+    flex-direction: column;
+    gap: 15px;
+  }
+  :host aside nav ul li,
+  :host aside nav ul li a,
+  :host section figure {
+    width: 100%;
+  }
 }/*# sourceMappingURL=header.component.css.map */
