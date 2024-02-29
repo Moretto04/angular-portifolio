@@ -25,7 +25,31 @@ p {
 
 .btn {
   display: flex;
-  background-color: red;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.btn.btn-primary, .btn.btn-secondary {
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 7px;
+}
+.btn.btn-primary {
+  color: var(--black-010);
+  background-color: var(--primary);
+}
+.btn.btn-primary:hover {
+  background-color: var(--primary-010);
+  color: var(--white);
+}
+.btn.btn-secondary {
+  color: var(--white);
+  background-color: var(--secondary);
+}
+.btn.btn-secondary:hover {
+  background-color: var(--secondary-010);
 }
 
 .container {
@@ -47,6 +71,6 @@ p {
   --secondary-010: #06374e;
   --white: #fff;
   --black: #10101a;
-  --back-010: #2a2a30;
+  --black-010: #2a2a30;
   --grey: #9b9ba0;
 }/*# sourceMappingURL=index.css.map */
