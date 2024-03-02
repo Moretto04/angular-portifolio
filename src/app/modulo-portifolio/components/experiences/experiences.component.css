@@ -1,5 +1,4 @@
 :host {
-  background-color: green;
   margin-top: 25px;
   display: flex;
   justify-content: center;
@@ -21,4 +20,28 @@
   padding: 10px 20px;
   color: var(--grey);
   transition: 500ms ease-out;
+}
+:host details summary {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary);
+}
+:host details summary p {
+  font-size: 14px;
+  color: var(--black-010);
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+:host details[open] summary {
+  border-radius: 7px 7px 0 0 !important;
+}
+:host details[open] summary::after {
+  content: url("../../../../assets/icons/angle-small-up.png");
+}
+:host details:not([open]) summary::after {
+  content: url("../../../../assets/icons/angle-small-down.png");
 }/*# sourceMappingURL=experiences.component.css.map */
