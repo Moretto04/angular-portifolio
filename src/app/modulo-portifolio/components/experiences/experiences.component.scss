@@ -13,11 +13,9 @@
         margin-top: 10px;
         background-color: var(--black-010);
         border-radius: 7px;
-        color: var(--white);
         summary, article{
             padding: 10px 20px;
-            color: var(--grey);
-            transition: 500ms ease-out;
+            transition: 500ms;
         }
         summary{
             cursor: pointer;
@@ -39,7 +37,7 @@
                 &::after{
                     content: url("../../../../assets/icons/angle-small-up.png");
                 }
-                border-radius: 7px 7px 0 0 !important;
+                border-radius: 7px 7px 0 0;
             }
         }
         &:not([open]){

@@ -22,6 +22,62 @@ export class ProjectsComponent {
           href: ''
         }
       ]
+    },
+    {
+      src: 'assets/header/tiago-pqueno.jpeg',
+      alt: 'projeto',
+      title: 'projeto',
+      width: '100px',
+      height: '51px',
+      description: 'uma descrição qualquer',
+      links: [
+        {
+          name: 'conheça o blog',
+          href: ''
+        }
+      ]
+    },
+    {
+      src: 'assets/header/tiago-pqueno.jpeg',
+      alt: 'projeto',
+      title: 'projeto',
+      width: '100px',
+      height: '51px',
+      description: 'uma descrição qualquer',
+      links: [
+        {
+          name: 'conheça o blog',
+          href: ''
+        }
+      ]
+    },
+    {
+      src: 'assets/header/tiago-pqueno.jpeg',
+      alt: 'projeto',
+      title: 'projeto',
+      width: '100px',
+      height: '51px',
+      description: 'uma descrição qualquer',
+      links: [
+        {
+          name: 'conheça o blog',
+          href: ''
+        }
+      ]
+    },
+    {
+      src: 'assets/header/tiago-pqueno.jpeg',
+      alt: 'projeto',
+      title: 'projeto',
+      width: '100px',
+      height: '51px',
+      description: 'uma descrição qualquer',
+      links: [
+        {
+          name: 'conheça o blog',
+          href: ''
+        }
+      ]
     }
   ])
 }
