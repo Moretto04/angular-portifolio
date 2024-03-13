@@ -18,10 +18,10 @@ export class ProjectsComponent {
     {
       src: 'assets/header/tiago-pqueno.jpeg',
       alt: 'projeto',
-      title: 'projeto',
+      title: 'Projeto 1',
       width: '100px',
       height: '51px',
-      description: 'uma descrição qualquer',
+      description: 'Explore o fascinante mundo do desenvolvimento web no meu blog dedicado exclusivamente ao ecossistema Angular, Front-end, JavaScript, Node.js e TypeScript.</p> <p>Desvende os segredos por trás da construção de interfaces modernas, aprimore suas habilidades de programação front-end quanto back-end e mergulhe em conceitos avançados de JavaScript e TypeScript.',
       links: [
         {
           name: 'conheça o blog',
@@ -29,67 +29,11 @@ export class ProjectsComponent {
         }
       ]
     },
-    {
-      src: 'assets/header/tiago-pqueno.jpeg',
-      alt: 'projeto',
-      title: 'projeto',
-      width: '100px',
-      height: '51px',
-      description: 'uma descrição qualquer',
-      links: [
-        {
-          name: 'conheça o blog',
-          href: ''
-        }
-      ]
-    },
-    {
-      src: 'assets/header/tiago-pqueno.jpeg',
-      alt: 'projeto',
-      title: 'projeto',
-      width: '100px',
-      height: '51px',
-      description: 'uma descrição qualquer',
-      links: [
-        {
-          name: 'conheça o blog',
-          href: ''
-        }
-      ]
-    },
-    {
-      src: 'assets/header/tiago-pqueno.jpeg',
-      alt: 'projeto',
-      title: 'projeto',
-      width: '100px',
-      height: '51px',
-      description: 'uma descrição qualquer',
-      links: [
-        {
-          name: 'conheça o blog',
-          href: ''
-        }
-      ]
-    },
-    {
-      src: 'assets/header/tiago-pqueno.jpeg',
-      alt: 'projeto',
-      title: 'projeto',
-      width: '100px',
-      height: '51px',
-      description: 'uma descrição qualquer',
-      links: [
-        {
-          name: 'conheça o blog',
-          href: ''
-        }
-      ]
-    }
   ])
   public openDialog(data: IProjects){
     this.#dialog.open(DialogProjectsComponent,{
       data,
-      panelClass: EDialogPanelClass.PROJECTS
-    })
+      panelClass: EDialogPanelClass.PROJECTS,
+    });
   }
 }
