@@ -39,7 +39,7 @@ p {
 }
 
 .btn.btn-primary {
-  color: var(--black-010);
+  color: var(--black);
   background-color: var(--primary);
 }
 
@@ -54,7 +54,7 @@ p {
 }
 
 .btn.btn-secondary:hover {
-  background-color: var(--secondary-010);
+  background-color: red;
 }
 
 .container {
@@ -71,11 +71,11 @@ p {
 }
 :root {
   --primary: #13F2F2;
-  --primary-010: #0B1726;
-  --secondary: #0B1726;
-  --secondary-010: #0B1726;
+  --primary-010: #038C8C;
+  --secondary: white;
+  --secondary-010: white;
   --white: #fff;
   --black: #0B1726;
-  --black-010: #2a2a30;
+  --black-010: #30588a;
   --grey: #9b9ba0;
 }/*# sourceMappingURL=styles.css.map */

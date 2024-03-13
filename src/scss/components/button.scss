@@ -13,7 +13,7 @@
         
     }
     &.btn-primary{
-        color: var(--black-010);
+        color: var(--black);
         background-color: var(--primary);
         &:hover{
             background-color: var(--primary-010);
@@ -24,7 +24,7 @@
         color: var(--white);
         background-color: var(--secondary);
         &:hover{
-            background-color: var(--secondary-010);
+            background-color: red;
         }
     }
 }

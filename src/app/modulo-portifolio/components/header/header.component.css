@@ -14,6 +14,10 @@
 :host aside p {
   text-align: center;
 }
+:host aside nav {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
 :host aside nav ul, :host aside section {
   width: 100%;
   display: flex;
@@ -26,9 +30,6 @@
 }
 :host aside nav ul li a, :host aside section li a {
   width: 250px;
-}
-:host aside nav ul nav, :host aside section nav {
-  margin: 20px 0;
 }
 :host aside section figure {
   width: 335px;

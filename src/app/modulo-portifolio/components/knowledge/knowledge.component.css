@@ -8,7 +8,6 @@
 }
 :host h2 {
   text-align: center;
-  margin: 0;
 }
 :host ul {
   margin-top: 0;
@@ -16,15 +15,15 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 5px;
   list-style: none;
 }
 :host ul li {
   width: 50px;
   height: 50px;
-  background-color: var(--black);
+  background-color: var(--primary);
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 7px;
+  margin-right: 15px;
 }/*# sourceMappingURL=knowledge.component.css.map */

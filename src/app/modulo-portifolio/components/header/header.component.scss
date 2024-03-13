@@ -21,6 +21,10 @@
         p{
             text-align: center;
         }
+        nav{
+            margin-top: 80px;
+            margin-bottom: 50px;
+        }
         nav ul, section{
             width: 100%;
             display: flex;
@@ -32,9 +36,6 @@
                 a{
                     width: 250px;
                 }
-            }
-        nav{
-            margin: 20px 0;
             }
         }
         section{
