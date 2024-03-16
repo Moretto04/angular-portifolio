@@ -10,19 +10,23 @@ import { Component, signal } from '@angular/core';
 export class KnowledgeComponent {
   public arrayKnowledge = signal([
     {
-      src: 'assets/knowledge/html.svg',
+      src: 'assets/knowledge/html.png',
       alt: 'icone html',
     },
     {
-      src: 'assets/knowledge/css.svg',
+      src: 'assets/knowledge/css.png',
       alt: 'icone css',
     },
     {
-      src: 'assets/knowledge/javascript.svg',
+      src: 'assets/knowledge/js.png',
       alt: 'icone javascript',
     },
     {
-      src: 'assets/knowledge/angular.svg',
+      src: 'assets/knowledge/typescript.png',
+      alt: 'icone javascript',
+    },
+    {
+      src: 'assets/knowledge/angular.png',
       alt: 'icone angular',
     },
   ])

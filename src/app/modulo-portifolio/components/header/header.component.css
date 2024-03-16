@@ -1,3 +1,7 @@
+@font-face {
+  font-family: font;
+  src: url(Skyscapers.ttf);
+}
 :host header, :host aside {
   display: flex;
   justify-content: center;
@@ -6,6 +10,9 @@
 :host header .div-desc {
   margin-right: 50px;
   width: 600px;
+}
+:host header .div-desc h1 {
+  font-family: "font";
 }
 :host header img {
   margin-top: 15px;
