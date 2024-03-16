@@ -1,13 +1,26 @@
 <div class="container">
     <h2>Projetos desenvolvidos</h2>
-
-    <ul>
-        @for (item of arrayProjects(); track item) {
-            <li>
-                <button (click)="openDialog(item)">
-                    <img [src]="item.src" [alt]="item.alt" [attr.width] = "item.width" [attr.height] = "item.height">
-                </button>
-            </li>
-        }
-    </ul>
+    <div class="container-img"> 
+        <div>
+            <div>
+                <img  src="assets/projetos/hunny digital.jpg" alt=""> 
+                <p><a href="">Hunny Digital</a></p>
+            </div>
+            <div>
+                <img src="assets/projetos/site casamento.PNG" alt=""> 
+                <p><a href="">Site de Casamneto </a></p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <img src="assets/projetos/countdown.jpg" alt="">
+                <p><a href="">Countdown</a></p>
+            </div>
+            <div>
+                <img src="assets/projetos/animes-blog.png" alt="">
+                <p><a href="">Animes Blog</a></p>
+            </div>
+        </div>
+        
+    </div>
 </div>
