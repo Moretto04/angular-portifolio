@@ -1,15 +1,15 @@
 :host{
     margin-top: 25px;
-    padding: 25px 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--black-010);
+    background-color: var(--black);
     h2{
         text-align: center;
-        margin: 0 0 25px 0;
+        
     }
     .container-img{
+        margin-left: -50px;
         display: flex;
         div img{
             width: 400px;

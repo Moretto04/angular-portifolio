@@ -1,16 +1,15 @@
 :host {
   margin-top: 25px;
-  padding: 25px 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--black-010);
+  background-color: var(--black);
 }
 :host h2 {
   text-align: center;
-  margin: 0 0 25px 0;
 }
 :host .container-img {
+  margin-left: -50px;
   display: flex;
 }
 :host .container-img div img {
