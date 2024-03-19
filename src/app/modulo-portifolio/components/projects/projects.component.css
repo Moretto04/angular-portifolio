@@ -24,6 +24,7 @@
 }
 :host .container-img .div-project p a:hover {
   color: var(--secondary-010);
+  border-bottom: 2px solid var(--primary-010);
 }
 @media (max-width: 750px) {
   :host ul li {

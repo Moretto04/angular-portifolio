@@ -24,11 +24,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--primary);
+  background-color: var(--primary-010);
 }
 :host details summary p {
   font-size: 14px;
-  color: var(--black-010);
+  color: var(--white);
   padding: 0;
   margin: 0;
   display: flex;

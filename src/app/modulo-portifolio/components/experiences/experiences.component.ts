@@ -11,10 +11,10 @@ export class ExperiencesComponent {
   public arrayExperiences = signal ([
     {
       summary: {
-        strong: 'Estagiário de desenvolvimentoFront-End',
+        strong: 'Estagiário de desenvolvimento Front-End',
         p: 'BBTS | Abr 2023 - Set 2023',
       },
-      text: 'Atuar no desenvolvimento web com a criação de páginas web e principalmente a criação de componentes documentados no StoryBook',
+      text: 'Atuar no desenvolvimento web com a criação de páginas web e principalmente a criação de componentes documentados no StoryBook.',
     },
   ]);
 }
