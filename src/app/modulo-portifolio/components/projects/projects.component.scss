@@ -18,7 +18,14 @@
         div div{
             margin-right: 40px;
         }
-        
+        .div-project{
+            p{
+                margin-top: 10px;
+            }
+            p a:hover{
+                color: var(--secondary-010);
+            }
+        }
     }
     
     

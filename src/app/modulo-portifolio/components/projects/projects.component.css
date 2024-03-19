@@ -19,6 +19,12 @@
 :host .container-img div div {
   margin-right: 40px;
 }
+:host .container-img .div-project p {
+  margin-top: 10px;
+}
+:host .container-img .div-project p a:hover {
+  color: var(--secondary-010);
+}
 @media (max-width: 750px) {
   :host ul li {
     flex: 100%;
