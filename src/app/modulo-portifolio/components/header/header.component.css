@@ -10,6 +10,7 @@
 :host header .div-desc {
   margin-right: 50px;
   width: 600px;
+  text-align: justify;
 }
 :host header .div-desc h1 {
   font-family: "font";
@@ -62,15 +63,38 @@
 :host aside section figure figcaption strong {
   color: var(--primary);
 }
-@media (max-width: 750px) {
-  :host aside nav ul,
-  :host section {
+@media (min-width: 450px) and (max-width: 800px) {
+  :host header {
+    display: flex;
     flex-direction: column;
-    gap: 15px;
   }
-  :host aside nav ul li,
-  :host aside nav ul li a,
-  :host section figure {
-    width: 100%;
+  :host header .div-desc {
+    width: 350px;
+  }
+  :host aside nav {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  :host aside nav ul, :host aside section {
+    display: flex;
+    flex-direction: column;
+  }
+  :host aside nav ul li, :host aside section li {
+    list-style: none;
+  }
+  :host aside nav ul li a, :host aside section li a {
+    width: 190px;
+  }
+  :host aside section figure figcaption a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  :host aside section figure figcaption p {
+    margin: 3px 0;
+  }
+  :host aside section figure figcaption strong {
+    color: var(--primary);
   }
 }/*# sourceMappingURL=header.component.css.map */

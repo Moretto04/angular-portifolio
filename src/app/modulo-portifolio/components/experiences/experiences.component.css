@@ -42,4 +42,28 @@
 }
 :host details:not([open]) summary::after {
   content: url("../../../../assets/icons/angle-small-down.png");
+}
+@media (min-width: 450px) and (max-width: 800px) {
+  :host details {
+    border-radius: 7px;
+  }
+  :host details summary, :host details article {
+    padding: 5px 10px;
+    transition: 500ms;
+  }
+  :host details summary {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-010);
+  }
+  :host details summary p {
+    font-size: 14px;
+    color: var(--white);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=experiences.component.css.map */
