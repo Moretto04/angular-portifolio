@@ -1,20 +1,28 @@
-@font-face {
-    font-family: font;
-    src: url(Skyscapers.ttf);
-}
+
 :host{
     header, aside{
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
     }
     header{
+        width: 100%;
         .div-desc{
             margin-right: 50px;
             width: 600px;
             text-align: justify;
             h1{
-                font-family: 'font';
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 40px;
+            }
+            p{
+                font-size: 20px;
+            }
+            button{
+                margin: 0;
+                padding: 0;
+                border: 0;
+                margin-top: 30px;
             }
         }
         img{
@@ -22,10 +30,21 @@
             border: 5px solid var(--white);
         }
     }
-    aside{
+    .div-sobre{
+        width: 100%;
+        h2,p{
+            margin: auto;
+        }
+        h2{
+            text-align: center;
+            font-size: 27px;
+        }
         p{
             text-align: center;
+            width: 800px;
         }
+    }
+    aside{
         nav{
             margin-top: 80px;
             margin-bottom: 50px;

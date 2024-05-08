@@ -38,7 +38,7 @@ p {
 }
 .btn.btn-primary {
   color: var(--black);
-  background-color: var(--primary);
+  background-color: red;
 }
 .btn.btn-primary:hover {
   background-color: var(--primary-010);

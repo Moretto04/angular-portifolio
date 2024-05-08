@@ -1,11 +1,10 @@
-@font-face {
-  font-family: font;
-  src: url(Skyscapers.ttf);
-}
 :host header, :host aside {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+}
+:host header {
+  width: 100%;
 }
 :host header .div-desc {
   margin-right: 50px;
@@ -13,14 +12,35 @@
   text-align: justify;
 }
 :host header .div-desc h1 {
-  font-family: "font";
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+:host header .div-desc p {
+  font-size: 20px;
+}
+:host header .div-desc button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  margin-top: 30px;
 }
 :host header img {
   margin-top: 15px;
   border: 5px solid var(--white);
 }
-:host aside p {
+:host .div-sobre {
+  width: 100%;
+}
+:host .div-sobre h2, :host .div-sobre p {
+  margin: auto;
+}
+:host .div-sobre h2 {
   text-align: center;
+  font-size: 27px;
+}
+:host .div-sobre p {
+  text-align: center;
+  width: 800px;
 }
 :host aside nav {
   margin-top: 80px;
