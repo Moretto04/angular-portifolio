@@ -22,12 +22,24 @@ export class KnowledgeComponent {
       alt: 'icone javascript',
     },
     {
-      src: 'assets/knowledge/typescript.png',
-      alt: 'icone javascript',
+      src: 'assets/knowledge/bootstrap-stack.png',
+      alt: 'icone bootstrap',
     },
     {
-      src: 'assets/knowledge/angular.png',
-      alt: 'icone angular',
+      src: 'assets/knowledge/sass.png',
+      alt: 'icone sass',
+    },
+    {
+      src: 'assets/knowledge/laravel.png',
+      alt: 'icone laravel',
+    },
+    {
+      src: 'assets/knowledge/python.png',
+      alt: 'icone python',
+    },
+    {
+      src: 'assets/knowledge/react.png',
+      alt: 'icone react',
     },
   ])
 }

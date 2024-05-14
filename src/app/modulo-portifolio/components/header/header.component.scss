@@ -6,11 +6,14 @@
         align-items: center;
     }
     header{
+        margin-top: 100px;
+        margin-bottom: 100px;
         width: 100%;
         .div-desc{
             margin-right: 50px;
             width: 600px;
             text-align: justify;
+            margin-bottom: 50px;
             h1{
                 font-family: Arial, Helvetica, sans-serif;
                 font-size: 40px;
@@ -26,8 +29,8 @@
             }
         }
         img{
-            margin-top: 15px;
-            border: 5px solid var(--white);
+            border-radius: 50%;
+            height: 250px;
         }
     }
     .div-sobre{
@@ -40,7 +43,7 @@
             font-size: 27px;
         }
         p{
-            text-align: center;
+            text-align: justify;
             width: 800px;
         }
     }

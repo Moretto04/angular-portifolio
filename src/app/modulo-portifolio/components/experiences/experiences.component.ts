@@ -11,10 +11,10 @@ export class ExperiencesComponent {
   public arrayExperiences = signal ([
     {
       summary: {
-        strong: 'Estagiário de desenvolvimento Front-End',
-        p: 'BBTS | Abr 2023 - Set 2023',
+        strong: 'Desenvolverdor Python Júnior',
+        p: 'APDIF -> Associação Protetora de Direitos Intelectuais Fonográficos | Março 2024 - Até o momento',
       },
-      text: 'Atuar no desenvolvimento web com a criação de páginas web e principalmente a criação de componentes documentados no StoryBook.',
+      text: 'Atuar no desenvolvimento de automações com o uso do python e criação de robôs para realização de tarefas cotidianas.',
     },
   ]);
 }

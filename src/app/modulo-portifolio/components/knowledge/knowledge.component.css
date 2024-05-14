@@ -5,9 +5,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 :host h2 {
   text-align: center;
+  margin-bottom: 40px;
 }
 :host ul {
   margin-top: 0;
